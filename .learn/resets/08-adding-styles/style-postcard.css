@@ -1,0 +1,43 @@
+.contenedor {
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+	border: 3px solid;
+}
+
+.subdiv-title {
+}
+.subdiv-logo {
+}
+
+.subdiv-head {
+	width: 400px;
+	padding: 10px;
+	margin: 10px 0;
+	color: white;
+	text-align: center;
+	border: 2px solid #e67e22;
+}
+.subdiv-body {
+	width: 800px;
+	padding: 80px;
+	margin: 10px 0;
+	color: white;
+	text-align: center;
+	border: 2px solid greenyellow;
+}
+.text-body {
+	border: solid;
+	position: left;
+	width: 200px;
+	padding: 60px;
+}
+.text-input {
+	border: solid;
+	position: right;
+	width: 200px;
+	height: 60px;
+}
+.button {
+	border: solid;
+}

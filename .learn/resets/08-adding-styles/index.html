@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mi primera postcard</title>
+		<link href="./style-postcard.css" />
+		<style>
+			.postcard {
+				width: 600px;
+				height: 400px;
+				margin: auto;
+				padding: 20px;
+				border: 3px solid;
+			}
+
+			.subdiv-title {
+				width: 50%;
+				height: 20%;
+				color: black;
+				border: pink;
+			}
+			.subdiv-logo {
+				object-position: right top;
+				width: 50%;
+				height: 50%;
+				object-fit: contain;
+			}
+
+			.subdiv-head {
+				width: 100%;
+				height: 30%;
+				border: 2px solid #e67e22;
+			}
+			.subdiv-body {
+				width: 100%;
+				height: 30%;
+				border: 2px solid greenyellow;
+			}
+			.text-body {
+				border: solid;
+				object-position: left top;
+				width: 50%;
+			}
+			.text-input {
+				border: solid;
+				position: right;
+				width: 50%;
+				height: 60px;
+			}
+			.button {
+				border: solid;
+			}
+			.img {
+				width: 80px;
+				height: 80px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="postcard">
+			<div class="subdiv-head">
+				<div class="subdiv-title">
+					<h1>My Postcard</h1>
+				</div>
+				<div class="subdiv-logo">
+					<img
+						class="img"
+						src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png?raw=true"
+					/>
+				</div>
+			</div>
+
+			<div class="subdiv-body">
+				<div class="text-body">
+					<p>
+						Look how aewsome! This is a
+						<br />
+						postcard that I created using
+						<br />
+						HTML5 and CSS3 during my
+						<br />
+						4Geeks Academy Course!
+					</p>
+				</div>
+				<div class="text-input">Name /email /coment <input type="Name" /></div>
+			</div>
+			<div>
+				<button>Send my postcard</button>
+			</div>
+		</div>
+	</body>
+</html>
